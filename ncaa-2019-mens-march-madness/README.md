@@ -24,6 +24,8 @@ Data (rather manually) "scraped" from:
 - https://www.sports-reference.com/cbb/boxscores/index.cgi?month=03&day=21&year=2019
 - https://www.sports-reference.com/cbb/boxscores/index.cgi?month=03&day=22&year=2019
 
+Scores can also be found in the Wikipedia page linked above.
+
 ### TODO
 
-Update data as tournament progresses. (Games are current up to end of the round of 64.)
+Update data (and source documentation) as tournament progresses. (Games are current up to end of the round of 64.)
