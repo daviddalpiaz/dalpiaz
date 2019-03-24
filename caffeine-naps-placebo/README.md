@@ -2,12 +2,12 @@
 
 ### Rows
 
-Each row is a "subject" in the experiment described in [Comparing the benefits of Caffeine, Naps and Placebo on Verbal, Motor and Perceptual Memory](Comparing the benefits of Caffeine, Naps and Placebo on Verbal, Motor and Perceptual Memory). We say "subject" because we are simulating data to best match the results on this study as the data is not publicly availibe.
+Each row is a "subject" in the experiment described in [Comparing the benefits of Caffeine, Naps and Placebo on Verbal, Motor and Perceptual Memory](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2603066/). We say "subject" because we are simulating data to best match the results on this study as the data is not publicly availibe.
 
 ### Columns
 
 - `words_recalled` - Number of words recalled after 20 mins in the verbal task described in the study.
-- `treatment` - One of `placebo', `nap` (a 60 -90 minute nap), or `caffeine` (a 200 mg pill).
+- `treatment` - One of `placebo`, `nap` (a 60 - 90 minute nap), or `caffeine` (a 200 mg pill).
 
 ### Source
 
