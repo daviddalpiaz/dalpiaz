@@ -11,4 +11,8 @@ caf_nap_recall = data.frame(
 # check p-value, try to match study
 summary(aov(words_recalled ~ treatment, data = caf_nap_recall))
 
-write.csv(caf_nap_recall, "caffeine-naps-placebo/caf-nap-recall.csv", row.names = FALSE)
+write.csv(caf_nap_recall,
+          "caffeine-naps-placebo/caf-nap-recall.csv",
+          row.names = FALSE)
+
+usethis::use_data(caf_nap_recall)
