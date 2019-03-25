@@ -1,14 +1,23 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 # dalpiaz
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
-The goal of `dalpiaz` is to house a collection of personal data and
-analytical functions.
+The goal of `dalpiaz` is to house a collection of personal data and analytical functions.
 
 ## Installation
 
@@ -23,5 +32,5 @@ devtools::install_github("daviddalpiaz/data")
 ## Data Import Scripts
 
 Want to see how each data set was imported? Check out the
-[`data-raw`](https://github.com/daviddalpiaz/data/tree/master/data-raw)
-folder\!
+[`data-raw`](https://github.com/daviddalpiaz/data/tree/master/data-raw) 
+folder!
