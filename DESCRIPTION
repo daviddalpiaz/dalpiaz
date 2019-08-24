@@ -1,0 +1,22 @@
+Package: dalpiaz
+Title: Dalpiaz Misc
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "David",
+           family = "Dalpiaz",
+           role = c("aut", "cre"),
+           email = "dalpiaz2@illinois.edu"),
+        person(given = "James",
+           family = "Balamuta",
+           role = c("aut"),
+           email = "balamut2@illinois.edu")
+     )
+Description: Provides a collection of data sets and analysis functions.
+URL: https://github.com/daviddalpiaz/dalpiaz
+BugReports: https://github.com/daviddalpiaz/dalpiaz/issues
+Depends: R (>= 3.0)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
